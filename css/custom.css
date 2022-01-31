@@ -478,9 +478,12 @@ a.btn.process-btn:focus::after {
      }
      #working .steps .list-numbering p{
          top:-25px;
-         left:38%;
+         left:40%;
      }
      .data h5.text-center{
          margin-top:15px;
      }
+     #working .steps .data {
+        margin-left: 40px;
+    }
 }
