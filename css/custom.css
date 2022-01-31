@@ -470,3 +470,17 @@ a.btn.process-btn:focus::after {
     color:#fff;
     padding: 50px  0;
 }
+
+@media (max-width:370px){
+     #working .steps{
+        width:100%;
+        margin: 80px auto;
+     }
+     #working .steps .list-numbering p{
+         top:-25px;
+         left:38%;
+     }
+     .data h5.text-center{
+         margin-top:15px;
+     }
+}
