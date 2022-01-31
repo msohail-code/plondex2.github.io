@@ -159,11 +159,10 @@ ol#steps_area {
 .WCAG-banner {
     background: #2d0363;
     color: #fff;
-    padding: 40px 0;
+    padding: 40px;
     border-radius: 10px;
     position: relative;
     z-index: 77;
-    /* width: 100%; */
     margin-top: -110px;
 }
 
@@ -178,7 +177,13 @@ ol#steps_area {
     padding:10px;
 }
 
-button.btn.process-btn{
+.data h5.text-center {
+    width: 81%;
+    margin: auto;
+    min-height: 50px;
+}
+
+a.btn.process-btn{
     position: relative;
     background-color: #7119E1;
     padding: 15px 30px;
@@ -193,17 +198,17 @@ button.btn.process-btn{
     font-weight:700;
 }
 
-button.btn.process-btn:hover {
+a.btn.process-btn:hover {
     background-color: #2D0363;
 }
 
-button.btn.process-btn:focus {
+a.btn.process-btn:focus {
     outline: none;
     background-color: #7119E1;
     box-shadow: none;
 }
 
-button.btn.process-btn:focus::after {
+a.btn.process-btn:focus::after {
     border-radius: 12px;
     border: 3px solid #7119E1;
     content: '';
@@ -245,7 +250,9 @@ button.btn.process-btn:focus::after {
 
 .testmonial img{
     width:300px;
-    
+    margin-top: 50px;
+    height: 300px;
+    border-radius: 100%!important;
 }
 
 .testmonial .review{
@@ -255,18 +262,19 @@ button.btn.process-btn:focus::after {
 
 .testmonial .review h3::before{
     content:"\201C";
-    margin-left:-100px;
+    margin-left: -64px;
     font-size:150px;
     color:#25d0b4;
     display:inline-block;
     vertical-align:middle;
     height:0;
-    margin-top:-150px;
-
+    margin-top: -42px;
+    position: absolute;
 }
 
 .testmonial .review h3{
     font-weight:bold;
+    position: relative;
 }
 
 .ourControls span{
@@ -306,7 +314,7 @@ button.btn.process-btn:focus::after {
     padding: 20px;
 }
 
-.get-started button.btn {
+.get-started a.btn {
     position: relative;
     background-color: #7119E1;
     padding: 10px 20px;
@@ -321,17 +329,17 @@ button.btn.process-btn:focus::after {
     font-weight: 700;
 }
 
-.get-started button.btn:hover {
+.get-started a.btn:hover {
     background-color: #2D0363;
 }
 
-.get-started button.btn:focus {
+.get-started a.btn:focus {
     outline: none;
     background-color: #7119E1;
     box-shadow: none;
 }
 
-.get-started button.btn:focus::after {
+.get-started a.btn:focus::after {
     border-radius: 12px;
     border: 3px solid #7119E1;
     content: '';
@@ -448,4 +456,11 @@ button.btn.process-btn:focus::after {
 
         text-align:center;
     }
+}
+
+
+#reports{
+    background: linear-gradient(to right, #17313c52, #0ade2e52);
+    color:#fff;
+    padding: 50px  0;
 }
