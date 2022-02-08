@@ -264,6 +264,12 @@ a.btn.process-btn:focus::after {
     margin-top:50px;
 
 }
+.carousel-indicators li {
+    background-color:#151414;
+}
+.process_explaination {
+    padding: 50px 0;
+}
 
 .testmonial .review h3::before{
     content:"\201C";
@@ -481,7 +487,7 @@ a.btn.process-btn:focus::after {
 
 
 #reports{
-    background: #0ade2e52;
+    background: #8C34FF;
     color:#fff;
     padding: 50px  0;
 }
