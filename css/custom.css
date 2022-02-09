@@ -526,7 +526,7 @@ a.btn.process-btn:focus::after {
     animation-name: fadeInUp;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
-    animation-duration: 1.5s;
+    animation-duration: 2.5s;
 }
 
 @keyframes fadeInOpacity {
@@ -545,7 +545,7 @@ a.btn.process-btn:focus::after {
 
 @keyframes fadeInUp {
     from {
-        transform: translate3d(0,40px,0)
+        transform: translate3d(0,100px,0)
     }
 
     to {
