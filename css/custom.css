@@ -12,7 +12,7 @@
 }
 
 #banner{
-    background: linear-gradient(to right, #7119E1, #25D0B4);
+    background: linear-gradient(to right, #00aeef, #25D0B4);
     padding:10px 0;
 }
 
@@ -131,7 +131,7 @@ ol#steps_area {
 }
 
 #working .steps .list-numbering p {
-    background: #2d0363;
+    background: #00aeef;
     display: block;
     height: 40px;
     width: 40px!Important;
@@ -158,7 +158,7 @@ ol#steps_area {
 
 
 .WCAG-banner {
-    background: #2d0363;
+    background: #00aeef;
     color: #fff;
     padding: 40px;
     border-radius: 10px;
@@ -188,7 +188,7 @@ ol#steps_area {
 }
 a.btn.process-btn{
     position: relative;
-    background-color: #7119E1;
+    background-color: #00aeef;
     padding: 15px 30px;
     border-radius: 8px;
     border: 2px solid transparent;
@@ -204,18 +204,18 @@ a.btn.process-btn{
 }
 
 a.btn.process-btn:hover {
-    background-color: #2D0363;
+    background-color: #00aeefba;
 }
 
 a.btn.process-btn:focus {
     outline: none;
-    background-color: #7119E1;
+    background-color: #00aeefba;
     box-shadow: none;
 }
 
 a.btn.process-btn:focus::after {
     border-radius: 12px;
-    border: 3px solid #7119E1;
+    border: 3px solid #00aeefba;
     content: '';
     position: absolute;
     top: -8px;
@@ -250,7 +250,7 @@ a.btn.process-btn:focus::after {
 }
 
 .testmonial{
-    /* height:400px; */
+    height: 250px;
     display:none;
 }
 
@@ -276,7 +276,7 @@ a.btn.process-btn:focus::after {
     content:"\201C";
     margin-left: -64px;
     font-size:150px;
-    color:#25d0b4;
+    color:#00aeef;
     display:inline-block;
     vertical-align:middle;
     height:0;
@@ -328,7 +328,7 @@ a.btn.process-btn:focus::after {
 
 .get-started a.btn {
     position: relative;
-    background-color: #7119E1;
+    background-color: #00aeef;
     padding: 10px 20px;
     border-radius: 8px;
     border: 2px solid transparent;
@@ -342,24 +342,28 @@ a.btn.process-btn:focus::after {
 }
 
 .get-started a.btn:hover {
-    background-color: #2D0363;
+    background-color: #00aeef;
 }
 
 .get-started a.btn:focus {
     outline: none;
-    background-color: #7119E1;
+    background-color: #00aeef;
     box-shadow: none;
 }
 
 .get-started a.btn:focus::after {
     border-radius: 12px;
-    border: 3px solid #7119E1;
+    border: 3px solid #00aeef;
     content: '';
     position: absolute;
     top: -8px;
     right: -8px;
     left: -8px;
     bottom: -8px;
+}
+
+.testmonials {
+    padding: 50px 0;
 }
 
 .left-side ul {
@@ -416,7 +420,7 @@ a.btn.process-btn:focus::after {
     }
     #working ol#steps_area::after{
         content:'';
-        background:#2d0363;
+        background:#00aeef;
         position:absolute;
         width:100%;
         height:90%;
