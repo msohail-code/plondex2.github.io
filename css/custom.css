@@ -475,7 +475,7 @@ a.btn.process-btn:focus::after {
 @media (max-width:450px){
      #working .steps{
         width:95%;
-        margin: 80px auto;
+        margin: 10px auto;
      }
      #working .steps .list-numbering p{
          top:-40px;
