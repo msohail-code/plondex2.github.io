@@ -316,7 +316,8 @@ a.btn.process-btn:focus::after {
 
 .get-started{
     padding:70px 0;
-    background:#e7defc;
+    background:#00aeefa1;
+    color: #fff;
 }
 
 .get-started h1{
@@ -477,10 +478,29 @@ a.btn.process-btn:focus::after {
         width:95%;
         margin: 10px auto;
      }
+    
+    h1{
+        font-size:23px;
+    }
      #working .steps .list-numbering p{
          top:-40px;
          left:40%;
      }
+    
+    .left-side{
+        padding:10px 30px;
+    }
+    
+    .process_explaination ul li{
+        font-size:16px;;
+    }
+    
+    a.btn.process-btn{
+        font-size:14px;
+        padding: 10px 15px;
+    }
+    
+    
 }
 
 @media (max-width:575px)
@@ -488,6 +508,7 @@ a.btn.process-btn:focus::after {
     #banner {
 
         text-align:center;
+        /*! border: 1px solid red; */
     }
 }
 
